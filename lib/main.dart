@@ -4408,11 +4408,11 @@ class MyApp extends StatelessWidget {
                     CircleAvatar(
                       radius: 27,
                       backgroundColor: Colors.green,
-                    child:CircleAvatar(
-                      radius: 25,
-                      backgroundColor: Colors.white,
-                      backgroundImage: AssetImage('assets/exxx.jpg'),
-                    ),
+                      child: CircleAvatar(
+                        radius: 25,
+                        backgroundColor: Colors.white,
+                        backgroundImage: AssetImage('assets/exxx.jpg'),
+                      ),
                     ),
                     SizedBox(
                       width: 15,
@@ -4447,11 +4447,11 @@ class MyApp extends StatelessWidget {
                     CircleAvatar(
                       radius: 27,
                       backgroundColor: Colors.green,
-                    child:CircleAvatar(
-                      radius: 25,
-                      backgroundColor: Colors.white,
-                      backgroundImage: AssetImage('assets/happp.jpg'),
-                    ),
+                      child: CircleAvatar(
+                        radius: 25,
+                        backgroundColor: Colors.white,
+                        backgroundImage: AssetImage('assets/happp.jpg'),
+                      ),
                     ),
                     SizedBox(
                       width: 15,
@@ -4486,13 +4486,12 @@ class MyApp extends StatelessWidget {
                     CircleAvatar(
                       radius: 27,
                       backgroundColor: Colors.green,
-                      
-                    child:CircleAvatar(
-                      radius: 25,
-                      backgroundColor: Colors.white,
-                      backgroundImage: AssetImage('assets/intt.jpg'),
+                      child: CircleAvatar(
+                        radius: 25,
+                        backgroundColor: Colors.white,
+                        backgroundImage: AssetImage('assets/intt.jpg'),
+                      ),
                     ),
-                    )
                     SizedBox(
                       width: 15,
                     ),
