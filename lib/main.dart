@@ -5712,7 +5712,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
             ),
-            Column(
+            Row(
               children: [
                 Padding(
                   padding: const EdgeInsets.all(8.0),
