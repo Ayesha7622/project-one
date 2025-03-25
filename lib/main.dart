@@ -5714,7 +5714,7 @@ class MyApp extends StatelessWidget {
                     ),
                   ),
                 ),
-                //Spacer(),
+                Spacer(),
                 Column(
                   children: [
                     Padding(
@@ -5755,12 +5755,15 @@ class MyApp extends StatelessWidget {
                         borderRadius: BorderRadius.circular(15),
                       ),
                       child: Row(children: [
-                        Text(
-                          'Dining',
-                          style: TextStyle(
-                              fontSize: 15,
-                              fontWeight: FontWeight.w300,
-                              color: const Color.fromARGB(255, 13, 13, 13)),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text(
+                            'Dining',
+                            style: TextStyle(
+                                fontSize: 15,
+                                fontWeight: FontWeight.w300,
+                                color: const Color.fromARGB(255, 13, 13, 13)),
+                          ),
                         ),
                       ]),
                     ),
