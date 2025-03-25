@@ -5683,36 +5683,9 @@ class MyApp extends StatelessWidget {
             ),
           ],
         ),
-        body: Row(
+        body: Column(
           children: [
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Container(
-                height: 50,
-                width: 300,
-                decoration: BoxDecoration(
-                  color: const Color.fromARGB(255, 224, 216, 216),
-                  borderRadius: BorderRadius.circular(15),
-                ),
-                child: Row(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Icon(Icons.search,
-                          color: const Color.fromARGB(255, 105, 101, 101)),
-                    ),
-                    Text(
-                      'Search Favourite Food',
-                      style: TextStyle(
-                          fontSize: 15,
-                          fontWeight: FontWeight.w300,
-                          color: const Color.fromARGB(255, 105, 101, 101)),
-                    ),
-                  ],
-                ),
-              ),
-            ),
-            Column(
+            Row(
               children: [
                 Padding(
                   padding: const EdgeInsets.all(8.0),
@@ -5720,22 +5693,53 @@ class MyApp extends StatelessWidget {
                     height: 50,
                     width: 300,
                     decoration: BoxDecoration(
-                      color: const Color.fromARGB(255, 218, 109, 41),
+                      color: const Color.fromARGB(255, 224, 216, 216),
                       borderRadius: BorderRadius.circular(15),
                     ),
-                    child: Row(children: [
-                      Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Text(
-                          'Delivery',
+                    child: Row(
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Icon(Icons.search,
+                              color: const Color.fromARGB(255, 105, 101, 101)),
+                        ),
+                        Text(
+                          'Search Favourite Food',
                           style: TextStyle(
                               fontSize: 15,
                               fontWeight: FontWeight.w300,
-                              color: const Color.fromARGB(255, 13, 13, 13)),
+                              color: const Color.fromARGB(255, 105, 101, 101)),
                         ),
-                      ),
-                    ]),
+                      ],
+                    ),
                   ),
+                ),
+                Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Container(
+                        height: 50,
+                        width: 300,
+                        decoration: BoxDecoration(
+                          color: const Color.fromARGB(255, 218, 109, 41),
+                          borderRadius: BorderRadius.circular(15),
+                        ),
+                        child: Row(children: [
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text(
+                              'Delivery',
+                              style: TextStyle(
+                                  fontSize: 15,
+                                  fontWeight: FontWeight.w300,
+                                  color: const Color.fromARGB(255, 13, 13, 13)),
+                            ),
+                          ),
+                        ]),
+                      ),
+                    ),
+                  ],
                 ),
               ],
             ),
