@@ -5694,7 +5694,7 @@ class MyApp extends StatelessWidget {
                   color: const Color.fromARGB(255, 224, 216, 216),
                   borderRadius: BorderRadius.circular(15),
                 ),
-                child: Row(
+                child: Column(
                   children: [
                     Padding(
                       padding: const EdgeInsets.all(8.0),
@@ -5712,7 +5712,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
             ),
-            Row(
+            Column(
               children: [
                 Padding(
                   padding: const EdgeInsets.all(8.0),
