@@ -5784,6 +5784,17 @@ class MyApp extends StatelessWidget {
                   ),
                 )
               ],
+            ),
+            Row(
+              children: [
+                Container(
+                  height: 100,
+                  width: 300,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(15),
+                  ),
+                )
+              ],
             )
           ],
         ),
