@@ -4232,9 +4232,13 @@ class MyApp extends StatelessWidget {
                   children: [
                     SizedBox(height: 10, width: 5),
                     CircleAvatar(
-                      radius: 25,
-                      backgroundColor: Colors.white,
-                      backgroundImage: AssetImage('assets/awwsh.jpg'),
+                      radius: 27,
+                      backgroundColor: Colors.green,
+                      child: CircleAvatar(
+                        radius: 25,
+                        backgroundColor: Colors.white,
+                        backgroundImage: AssetImage('assets/awwsh.jpg'),
+                      ),
                     ),
                     SizedBox(width: 15),
                     Column(
