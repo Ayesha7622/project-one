@@ -5636,80 +5636,112 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        debugShowCheckedModeBanner: false,
-        home: Scaffold(
-          backgroundColor: Colors.white,
-          appBar: AppBar(
-            backgroundColor: Colors.orange,
-            leading: Icon(Icons.restaurant_menu_sharp, color: Colors.white),
-            title: Column(
-              children: [
-                Text('FOODXA',
-                    style: TextStyle(
-                        fontSize: 17,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.white)),
-                Text(
-                  'Good Food Good Health',
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        backgroundColor: Colors.white,
+        appBar: AppBar(
+          backgroundColor: Colors.orange,
+          leading: Icon(Icons.restaurant_menu_sharp, color: Colors.white),
+          title: Column(
+            children: [
+              Text('FOODXA',
                   style: TextStyle(
-                      fontSize: 10,
-                      fontWeight: FontWeight.normal,
-                      color: Colors.white),
-                ),
-                //
-              ],
-            ),
-            actions: [
-              Padding(
-                padding: const EdgeInsets.all(12.0),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.end,
-                  children: [
-                    SizedBox(
-                      height: 30,
-                    ),
-                    Text('Sector 67,San..',
-                        style: TextStyle(
-                            fontSize: 10,
-                            fontWeight: FontWeight.normal,
-                            color: Colors.white)),
-                    SizedBox(width: 10),
-                    Icon(Icons.location_on, color: Colors.white),
-                    SizedBox(
-                      width: 10,
-                    )
-                  ],
-                ),
+                      fontSize: 17,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white)),
+              Text(
+                'Good Food Good Health',
+                style: TextStyle(
+                    fontSize: 10,
+                    fontWeight: FontWeight.normal,
+                    color: Colors.white),
               ),
+              //
             ],
           ),
-          body: Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Container(
-              height: 50,
-              width: 300,
-              decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 224, 216, 216),
-                borderRadius: BorderRadius.circular(15),
-              ),
+          actions: [
+            Padding(
+              padding: const EdgeInsets.all(12.0),
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.end,
                 children: [
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Icon(Icons.search,
-                        color: const Color.fromARGB(255, 105, 101, 101)),
+                  SizedBox(
+                    height: 30,
                   ),
-                  Text(
-                    'Search Favourite Food',
-                    style: TextStyle(
-                        fontSize: 15,
-                        fontWeight: FontWeight.w300,
-                        color: const Color.fromARGB(255, 105, 101, 101)),
-                  ),
+                  Text('Sector 67,San..',
+                      style: TextStyle(
+                          fontSize: 10,
+                          fontWeight: FontWeight.normal,
+                          color: Colors.white)),
+                  SizedBox(width: 10),
+                  Icon(Icons.location_on, color: Colors.white),
+                  SizedBox(
+                    width: 10,
+                  )
                 ],
               ),
             ),
-          ),
-        ));
+          ],
+        ),
+        body: Column(
+          children: [
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                height: 50,
+                width: 300,
+                decoration: BoxDecoration(
+                  color: const Color.fromARGB(255, 224, 216, 216),
+                  borderRadius: BorderRadius.circular(15),
+                ),
+                child: Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Icon(Icons.search,
+                          color: const Color.fromARGB(255, 105, 101, 101)),
+                    ),
+                    Text(
+                      'Search Favourite Food',
+                      style: TextStyle(
+                          fontSize: 15,
+                          fontWeight: FontWeight.w300,
+                          color: const Color.fromARGB(255, 105, 101, 101)),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            Column(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    height: 50,
+                    width: 300,
+                    decoration: BoxDecoration(
+                      color: const Color.fromARGB(255, 218, 109, 41),
+                      borderRadius: BorderRadius.circular(15),
+                    ),
+                    child: Row(children: [
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text(
+                          'Delivery',
+                          style: TextStyle(
+                              fontSize: 15,
+                              fontWeight: FontWeight.w300,
+                              color: const Color.fromARGB(255, 13, 13, 13)),
+                        ),
+                      ),
+                    ]),
+                  ),
+                ),
+              ],
+            )
+          ],
+        ),
+      ),
+    );
   }
 }
