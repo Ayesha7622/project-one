@@ -4406,9 +4406,13 @@ class MyApp extends StatelessWidget {
                   children: [
                     SizedBox(height: 10, width: 5),
                     CircleAvatar(
+                      radius: 27,
+                      backgroundColor: Colors.green,
+                    child:CircleAvatar(
                       radius: 25,
                       backgroundColor: Colors.white,
                       backgroundImage: AssetImage('assets/exxx.jpg'),
+                    ),
                     ),
                     SizedBox(
                       width: 15,
@@ -4440,11 +4444,15 @@ class MyApp extends StatelessWidget {
                 child: Row(
                   children: [
                     SizedBox(height: 10, width: 5),
+                    // CircleAvatar(
+                    //   radius: 27,
+                    //   backgroundColor: Colors.green,
                     CircleAvatar(
                       radius: 25,
                       backgroundColor: Colors.white,
                       backgroundImage: AssetImage('assets/happp.jpg'),
                     ),
+                    
                     SizedBox(
                       width: 15,
                     ),
@@ -4476,10 +4484,15 @@ class MyApp extends StatelessWidget {
                   children: [
                     SizedBox(height: 10, width: 5),
                     CircleAvatar(
+                      radius: 27,
+                      backgroundColor: Colors.green,
+                      
+                    child:CircleAvatar(
                       radius: 25,
                       backgroundColor: Colors.white,
                       backgroundImage: AssetImage('assets/intt.jpg'),
                     ),
+                    )
                     SizedBox(
                       width: 15,
                     ),
