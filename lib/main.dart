@@ -5771,6 +5771,20 @@ class MyApp extends StatelessWidget {
                 ),
               ],
             ),
+            Row(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(
+                    'Top Deals',
+                    style: TextStyle(
+                        fontSize: 10,
+                        fontWeight: FontWeight.w300,
+                        color: Colors.black),
+                  ),
+                )
+              ],
+            )
           ],
         ),
       ),
