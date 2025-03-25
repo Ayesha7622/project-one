@@ -5718,7 +5718,7 @@ class MyApp extends StatelessWidget {
                 Column(
                   children: [
                     Padding(
-                      padding: const EdgeInsets.all(14.0),
+                      padding: const EdgeInsets.all(10.0),
                       child: Container(
                         height: 50,
                         width: 100,
@@ -5742,30 +5742,30 @@ class MyApp extends StatelessWidget {
                     ),
                   ],
                 ),
+                // SizedBox(
+                //   width: 3,
+                // ),
                 Column(
                   children: [
-                    Padding(
-                      padding: const EdgeInsets.all(2.0),
-                      child: Container(
-                        height: 50,
-                        width: 100,
-                        decoration: BoxDecoration(
-                          color: const Color.fromARGB(255, 227, 202, 187),
-                          borderRadius: BorderRadius.circular(15),
-                        ),
-                        child: Row(children: [
-                          Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Text(
-                              'Dining',
-                              style: TextStyle(
-                                  fontSize: 15,
-                                  fontWeight: FontWeight.w300,
-                                  color: const Color.fromARGB(255, 13, 13, 13)),
-                            ),
-                          ),
-                        ]),
+                    Container(
+                      height: 50,
+                      width: 100,
+                      decoration: BoxDecoration(
+                        color: const Color.fromARGB(255, 227, 202, 187),
+                        borderRadius: BorderRadius.circular(15),
                       ),
+                      child: Row(children: [
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text(
+                            'Dining',
+                            style: TextStyle(
+                                fontSize: 15,
+                                fontWeight: FontWeight.w300,
+                                color: const Color.fromARGB(255, 13, 13, 13)),
+                          ),
+                        ),
+                      ]),
                     ),
                   ],
                 ),
