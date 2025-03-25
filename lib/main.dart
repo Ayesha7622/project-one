@@ -5792,6 +5792,10 @@ class MyApp extends StatelessWidget {
                   width: 300,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15),
+                    image: DecorationImage(
+                      image: AssetImage('assets/giggg.jpg'),
+                      fit: BoxFit.cover,
+                    ),
                   ),
                 )
               ],
