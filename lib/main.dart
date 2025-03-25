@@ -5694,8 +5694,11 @@ class MyApp extends StatelessWidget {
               ),
               child: Row(
                 children: [
-                  Icon(Icons.search,
-                      color: const Color.fromARGB(255, 105, 101, 101)),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Icon(Icons.search,
+                        color: const Color.fromARGB(255, 105, 101, 101)),
+                  ),
                   Text(
                     'Search Favourite Food',
                     style: TextStyle(
