@@ -5683,24 +5683,27 @@ class MyApp extends StatelessWidget {
               ),
             ],
           ),
-          body: Container(
-            height: 10,
-            width: 80,
-            decoration: BoxDecoration(
-              color: const Color.fromARGB(255, 183, 167, 167),
-              borderRadius: BorderRadius.circular(15),
-            ),
-            child: Row(
-              children: [
-                Icon(Icons.search),
-                Text(
-                  'Search Favourite Food',
-                  style: TextStyle(
-                      fontSize: 15,
-                      fontWeight: FontWeight.w300,
-                      color: const Color.fromARGB(255, 132, 127, 127)),
-                ),
-              ],
+          body: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              height: 50,
+              width: 210,
+              decoration: BoxDecoration(
+                color: const Color.fromARGB(255, 183, 167, 167),
+                borderRadius: BorderRadius.circular(15),
+              ),
+              child: Row(
+                children: [
+                  Icon(Icons.search),
+                  Text(
+                    'Search Favourite Food',
+                    style: TextStyle(
+                        fontSize: 15,
+                        fontWeight: FontWeight.w300,
+                        color: const Color.fromARGB(255, 132, 127, 127)),
+                  ),
+                ],
+              ),
             ),
           ),
         ));
