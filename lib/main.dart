@@ -4329,9 +4329,7 @@ class MyApp extends StatelessWidget {
                   ],
                 ),
               ),
-              Card(
-                child: ListTile(),
-              ),
+
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Row(
@@ -4758,9 +4756,13 @@ class MyApp extends StatelessWidget {
                   children: [
                     SizedBox(height: 10, width: 5),
                     CircleAvatar(
-                      radius: 25,
-                      backgroundColor: Colors.white,
-                      backgroundImage: AssetImage('assets/nainn.jpg'),
+                      radius: 28,
+                      backgroundColor: Colors.green,
+                      child: CircleAvatar(
+                        radius: 25,
+                        backgroundColor: Colors.white,
+                        backgroundImage: AssetImage('assets/nainn.jpg'),
+                      ),
                     ),
                     SizedBox(
                       width: 15,
@@ -4806,9 +4808,10 @@ class MyApp extends StatelessWidget {
                 ],
               ),
               Row(
-                crossAxisAlignment: CrossAxisAlignment.end,
+                mainAxisAlignment: MainAxisAlignment.end,
+                //crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
-                  Spacer(),
+                  //Spacer(),
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Container(
