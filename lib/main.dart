@@ -5778,7 +5778,7 @@ class MyApp extends StatelessWidget {
                   child: Text(
                     'Top Deals',
                     style: TextStyle(
-                        fontSize: 10,
+                        fontSize: 25,
                         fontWeight: FontWeight.w300,
                         color: Colors.black),
                   ),
