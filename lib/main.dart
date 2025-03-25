@@ -5683,7 +5683,7 @@ class MyApp extends StatelessWidget {
             ),
           ],
         ),
-        body: Column(
+        body: Row(
           children: [
             Padding(
               padding: const EdgeInsets.all(8.0),
@@ -5712,7 +5712,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
             ),
-            Row(
+            Column(
               children: [
                 Padding(
                   padding: const EdgeInsets.all(8.0),
