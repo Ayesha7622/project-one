@@ -5687,20 +5687,21 @@ class MyApp extends StatelessWidget {
             padding: const EdgeInsets.all(8.0),
             child: Container(
               height: 50,
-              width: 210,
+              width: 300,
               decoration: BoxDecoration(
                 color: const Color.fromARGB(255, 183, 167, 167),
                 borderRadius: BorderRadius.circular(15),
               ),
               child: Row(
                 children: [
-                  Icon(Icons.search),
+                  Icon(Icons.search,
+                      color: const Color.fromARGB(255, 105, 101, 101)),
                   Text(
                     'Search Favourite Food',
                     style: TextStyle(
                         fontSize: 15,
                         fontWeight: FontWeight.w300,
-                        color: const Color.fromARGB(255, 132, 127, 127)),
+                        color: const Color.fromARGB(255, 105, 101, 101)),
                   ),
                 ],
               ),
