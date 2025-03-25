@@ -5719,7 +5719,7 @@ class MyApp extends StatelessWidget {
                   children: [
                     Container(
                       height: 50,
-                      width: 100,
+                      width: 80,
                       decoration: BoxDecoration(
                         color: const Color.fromARGB(255, 218, 109, 41),
                         borderRadius: BorderRadius.circular(15),
@@ -5748,7 +5748,7 @@ class MyApp extends StatelessWidget {
                       padding: const EdgeInsets.all(8.0),
                       child: Container(
                         height: 50,
-                        width: 100,
+                        width: 80,
                         decoration: BoxDecoration(
                           color: const Color.fromARGB(255, 227, 202, 187),
                           borderRadius: BorderRadius.circular(15),
