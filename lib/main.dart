@@ -5789,20 +5789,23 @@ class MyApp extends StatelessWidget {
                   )
                 ],
               ),
-              Row(
-                children: [
-                  Container(
-                    height: 400,
-                    width: 1300,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(15),
-                      image: DecorationImage(
-                        image: AssetImage('assets/giggg.jpg'),
-                        fit: BoxFit.cover,
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  children: [
+                    Container(
+                      height: 400,
+                      width: 1300,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(15),
+                        image: DecorationImage(
+                          image: AssetImage('assets/giggg.jpg'),
+                          fit: BoxFit.cover,
+                        ),
                       ),
-                    ),
-                  )
-                ],
+                    )
+                  ],
+                ),
               )
             ],
           ),
