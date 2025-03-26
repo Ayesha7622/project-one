@@ -6178,17 +6178,6 @@ class MyApp extends StatelessWidget {
                     color: const Color.fromARGB(255, 231, 190, 248),
                     borderRadius: BorderRadius.circular(23),
                   ),
-                  // child: Container(
-                  //   height: 1500,
-                  //   width: 200,
-                  //   decoration: BoxDecoration(
-                  //     borderRadius: BorderRadius.circular(15),
-                  //     //color: Colors.white60,
-                  //     image: DecorationImage(
-                  //         image: AssetImage('assets/burgerr.jpg')),
-                  //   ),
-
-                  // ),
                   child: Column(
                     children: [
                       Spacer(),
@@ -6200,7 +6189,17 @@ class MyApp extends StatelessWidget {
                       Text('\$180.00'),
                     ],
                   ),
-                )
+                ),
+                Container(
+                  height: 150,
+                  width: 200,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(15),
+                    //color: Colors.white60,
+                    image: DecorationImage(
+                        image: AssetImage('assets/burgerr.jpg')),
+                  ),
+                ),
               ],
             )
           ]),
