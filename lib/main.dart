@@ -5685,54 +5685,80 @@ class MyApp extends StatelessWidget {
         ),
         body: SingleChildScrollView(
           scrollDirection: Axis.vertical,
-          child: Column(
-            children: [
-              Row(
-                children: [
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Container(
+          child: Column(children: [
+            Row(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    height: 50,
+                    width: 300,
+                    decoration: BoxDecoration(
+                      color: const Color.fromARGB(255, 224, 216, 216),
+                      borderRadius: BorderRadius.circular(15),
+                    ),
+                    child: Row(
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Icon(Icons.search,
+                              color: const Color.fromARGB(255, 105, 101, 101)),
+                        ),
+                        Text(
+                          'Search Favourite Food',
+                          style: TextStyle(
+                              fontSize: 15,
+                              fontWeight: FontWeight.w300,
+                              color: const Color.fromARGB(255, 105, 101, 101)),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Spacer(),
+                Column(
+                  children: [
+                    Container(
                       height: 50,
-                      width: 300,
+                      width: 80,
                       decoration: BoxDecoration(
-                        color: const Color.fromARGB(255, 224, 216, 216),
+                        color: const Color.fromARGB(255, 218, 109, 41),
                         borderRadius: BorderRadius.circular(15),
                       ),
-                      child: Row(
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Icon(Icons.search,
-                                color:
-                                    const Color.fromARGB(255, 105, 101, 101)),
-                          ),
-                          Text(
-                            'Search Favourite Food',
+                      child: Row(children: [
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text(
+                            'Delivery',
                             style: TextStyle(
                                 fontSize: 15,
                                 fontWeight: FontWeight.w300,
-                                color:
-                                    const Color.fromARGB(255, 105, 101, 101)),
+                                color: const Color.fromARGB(255, 13, 13, 13)),
                           ),
-                        ],
-                      ),
+                        ),
+                      ]),
                     ),
-                  ),
-                  Spacer(),
-                  Column(
-                    children: [
-                      Container(
+                  ],
+                ),
+                // SizedBox(
+                //   width: 3,
+                // ),
+                Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Container(
                         height: 50,
                         width: 80,
                         decoration: BoxDecoration(
-                          color: const Color.fromARGB(255, 218, 109, 41),
+                          color: const Color.fromARGB(255, 247, 236, 229),
                           borderRadius: BorderRadius.circular(15),
                         ),
                         child: Row(children: [
                           Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
-                              'Delivery',
+                              'Dining',
                               style: TextStyle(
                                   fontSize: 15,
                                   fontWeight: FontWeight.w300,
@@ -5741,138 +5767,116 @@ class MyApp extends StatelessWidget {
                           ),
                         ]),
                       ),
-                    ],
+                    ),
+                  ],
+                ),
+              ],
+            ),
+            Row(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(
+                    'Top Deals',
+                    style: TextStyle(
+                        fontSize: 25,
+                        fontWeight: FontWeight.w300,
+                        color: Colors.black),
                   ),
-                  // SizedBox(
-                  //   width: 3,
-                  // ),
-                  Column(
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Container(
-                          height: 50,
-                          width: 80,
-                          decoration: BoxDecoration(
-                            color: const Color.fromARGB(255, 247, 236, 229),
-                            borderRadius: BorderRadius.circular(15),
-                          ),
-                          child: Row(children: [
-                            Padding(
-                              padding: const EdgeInsets.all(8.0),
-                              child: Text(
-                                'Dining',
-                                style: TextStyle(
-                                    fontSize: 15,
-                                    fontWeight: FontWeight.w300,
-                                    color:
-                                        const Color.fromARGB(255, 13, 13, 13)),
-                              ),
-                            ),
-                          ]),
-                        ),
-                      ),
-                    ],
-                  ),
-                ],
-              ),
-              Row(
+                )
+              ],
+            ),
+            SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Row(
                 children: [
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Text(
-                      'Top Deals',
-                      style: TextStyle(
-                          fontSize: 25,
-                          fontWeight: FontWeight.w300,
-                          color: Colors.black),
+                  Container(
+                    height: 400,
+                    width: 1300,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15),
+                      image: DecorationImage(
+                        image: AssetImage('assets/giggg.jpg'),
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   )
                 ],
               ),
-              SingleChildScrollView(
-                scrollDirection: Axis.horizontal,
-                child: Row(
+            ),
+            Row(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(
+                    'Categories',
+                    style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.black),
+                  ),
+                ),
+                Spacer(),
+                Column(
                   children: [
-                    Container(
-                      height: 400,
-                      width: 1300,
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(15),
-                        image: DecorationImage(
-                          image: AssetImage('assets/giggg.jpg'),
-                          fit: BoxFit.cover,
-                        ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text(
+                        'See All',
+                        style: TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.w300,
+                            color: Colors.pink),
                       ),
                     )
                   ],
+                )
+              ],
+            ),
+            Row(
+              children: [
+                CircleAvatar(
+                  radius: 30,
                 ),
-              ),
-              Row(
-                children: [
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Text(
-                      'Categories',
-                      style: TextStyle(
-                          fontSize: 20,
-                          fontWeight: FontWeight.w600,
-                          color: Colors.black),
+                Column(
+                  children: [
+                    CircleAvatar(
+                      radius: 30,
                     ),
-                  ),
-                  Spacer(),
-                  Column(
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Text(
-                          'See All',
-                          style: TextStyle(
-                              fontSize: 20,
-                              fontWeight: FontWeight.w300,
-                              color: Colors.pink),
+                    Column(children: [
+                      CircleAvatar(
+                        radius: 30,
+                      ),
+                      Column(children: [
+                        CircleAvatar(
+                          radius: 30,
                         ),
-                      )
-                    ],
-                  )
-                ],
-              ),
-              Row(
-                children: [
-                  CircleAvatar(
-                    radius: 30,
-                  ),
-                  Column(
-                    children: [
-                      CircleAvatar(
-                        radius: 30,
-                      ),
-                      Column(
-                    children: [
-                      CircleAvatar(
-                        radius: 30,
-                      ),
-                      Column(
-                    children: [
-                      CircleAvatar(
-                        radius: 30,
-                      ),
-                      Column(
-                    children: [
-                      CircleAvatar(
-                        radius: 30,
-                      ),
-                      Column(
-                    children: [
-                      CircleAvatar(
-                        radius: 30,
-                      ),
-                    ],
-                  )
-                ],
-              )
-            ],
-          ),
+                        Column(
+                          children: [
+                            CircleAvatar(
+                              radius: 30,
+                            ),
+                            Column(
+                              children: [
+                                CircleAvatar(
+                                  radius: 30,
+                                ),
+                                Column(children: [
+                                  CircleAvatar(
+                                    radius: 30,
+                                  ),
+                                ])
+                              ],
+                            )
+                          ],
+                        ),
+                      ])
+                    ])
+                  ],
+                )
+              ],
+            ),
+          ]),
         ),
       ),
     );
