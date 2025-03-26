@@ -5816,12 +5816,25 @@ class MyApp extends StatelessWidget {
               scrollDirection: Axis.horizontal,
               child: Row(
                 children: [
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: CircleAvatar(
-                      radius: 30,
-                      backgroundImage: AssetImage('assets/Pizzza.jpg'),
-                    ),
+                  Column(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: CircleAvatar(
+                          radius: 35,
+                          backgroundColor: Colors.orange,
+                          child: CircleAvatar(
+                            radius: 30,
+                            backgroundImage: AssetImage('assets/Pizzza.jpg'),
+                          ),
+                        ),
+                      ),
+                      Text('Pizza',
+                          style: TextStyle(
+                              fontSize: 10,
+                              fontWeight: FontWeight.w300,
+                              color: Colors.grey))
+                    ],
                   ),
                   Row(
                     children: [
