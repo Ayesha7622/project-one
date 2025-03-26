@@ -6172,8 +6172,8 @@ class MyApp extends StatelessWidget {
             Row(
               children: [
                 Container(
-                  height: 80,
-                  width: 150,
+                  height: 140,
+                  width: 200,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15),
                     color: Colors.white60,
