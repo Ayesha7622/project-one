@@ -5833,17 +5833,17 @@ class MyApp extends StatelessWidget {
                 )
               ],
             ),
-            Row(
-              children: [
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: CircleAvatar(
-                    radius: 30,
+            SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Row(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: CircleAvatar(
+                      radius: 30,
+                    ),
                   ),
-                ),
-                SingleChildScrollView(
-                  scrollDirection: Axis.horizontal,
-                  child: Row(
+                  Row(
                     children: [
                       Padding(
                         padding: const EdgeInsets.all(8.0),
@@ -5942,9 +5942,9 @@ class MyApp extends StatelessWidget {
                         ),
                       ),
                     ],
-                  ),
-                )
-              ],
+                  )
+                ],
+              ),
             ),
           ]),
         ),
