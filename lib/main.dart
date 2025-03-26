@@ -5838,40 +5838,35 @@ class MyApp extends StatelessWidget {
                 CircleAvatar(
                   radius: 30,
                 ),
-                Column(
+                Row(
                   children: [
                     CircleAvatar(
                       radius: 30,
                     ),
-                    Column(children: [
-                      CircleAvatar(
-                        radius: 30,
-                      ),
-                      Column(children: [
-                        CircleAvatar(
-                          radius: 30,
-                        ),
-                        Column(
-                          children: [
-                            CircleAvatar(
-                              radius: 30,
-                            ),
-                            Column(
-                              children: [
-                                CircleAvatar(
-                                  radius: 30,
-                                ),
-                                Column(children: [
-                                  CircleAvatar(
-                                    radius: 30,
-                                  ),
-                                ])
-                              ],
-                            )
-                          ],
-                        ),
-                      ])
-                    ])
+                    CircleAvatar(
+                      radius: 30,
+                    ),
+                    CircleAvatar(
+                      radius: 30,
+                    ),
+                    CircleAvatar(
+                      radius: 30,
+                    ),
+                    CircleAvatar(
+                      radius: 30,
+                    ),
+                    CircleAvatar(
+                      radius: 30,
+                    ),
+                    CircleAvatar(
+                      radius: 30,
+                    ),
+                    CircleAvatar(
+                      radius: 30,
+                    ),
+                    CircleAvatar(
+                      radius: 30,
+                    ),
                   ],
                 )
               ],
