@@ -6174,6 +6174,7 @@ class MyApp extends StatelessWidget {
                 Container(
                   height: 300,
                   width: 400,
+                  color: const Color.fromARGB(255, 233, 221, 234),
                   child: Container(
                     height: 200,
                     width: 300,
