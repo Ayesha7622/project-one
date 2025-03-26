@@ -5793,7 +5793,7 @@ class MyApp extends StatelessWidget {
                 children: [
                   Container(
                     height: 400,
-                    width: 1000,
+                    width: 1300,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(15),
                       image: DecorationImage(
