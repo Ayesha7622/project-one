@@ -5813,9 +5813,20 @@ class MyApp extends StatelessWidget {
                   Text(
                     'Categories',
                     style: TextStyle(
-                        fontSize: 10,
+                        fontSize: 20,
                         fontWeight: FontWeight.w300,
                         color: Colors.black),
+                  ),
+                  Column(
+                    children: [
+                      Text(
+                        'See All',
+                        style: TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.w300,
+                            color: Colors.pink),
+                      )
+                    ],
                   )
                 ],
               )
