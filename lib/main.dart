@@ -6195,7 +6195,7 @@ class MyApp extends StatelessWidget {
                       Text(
                         'Burger King',
                         style: TextStyle(
-                            fontSize: 20, fontWeight: FontWeight.w500),
+                            fontSize: 20, fontWeight: FontWeight.w600),
                       ),
                       Text('\$180.00'),
                     ],
