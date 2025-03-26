@@ -5646,7 +5646,7 @@ class MyApp extends StatelessWidget {
               Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
             Text('FOODXA',
                 style: TextStyle(
-                    fontSize: 17,
+                    fontSize: 20,
                     fontWeight: FontWeight.bold,
                     color: Colors.white)),
             Row(
@@ -5820,6 +5820,7 @@ class MyApp extends StatelessWidget {
                     padding: const EdgeInsets.all(8.0),
                     child: CircleAvatar(
                       radius: 30,
+                      backgroundImage: AssetImage('assets/Pizzza.jpg'),
                     ),
                   ),
                   Row(
@@ -5828,96 +5829,113 @@ class MyApp extends StatelessWidget {
                         padding: const EdgeInsets.all(8.0),
                         child: CircleAvatar(
                           radius: 30,
+                          backgroundImage:
+                              AssetImage('assets/roll paratha.jpg'),
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: CircleAvatar(
                           radius: 30,
+                          backgroundImage: AssetImage('assets/nuggy.jpg'),
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: CircleAvatar(
                           radius: 30,
+                          backgroundImage: AssetImage('assets/wings.jpg'),
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: CircleAvatar(
                           radius: 30,
+                          backgroundImage: AssetImage('assets/Tacos.jpg'),
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: CircleAvatar(
                           radius: 30,
+                          backgroundImage: AssetImage('assets/hot dogs.jpg'),
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: CircleAvatar(
                           radius: 30,
+                          backgroundImage: AssetImage('assets/fries.jpg'),
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: CircleAvatar(
                           radius: 30,
+                          backgroundImage: AssetImage('assets/burgerr.jpg'),
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: CircleAvatar(
                           radius: 30,
+                          backgroundImage: AssetImage('assets/sandwiches.jpg'),
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: CircleAvatar(
                           radius: 30,
+                          backgroundImage: AssetImage('assets/icee.jpg'),
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: CircleAvatar(
                           radius: 30,
+                          backgroundImage: AssetImage('assets/kbab.jpg'),
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: CircleAvatar(
                           radius: 30,
+                          backgroundImage: AssetImage('assets/rollls.jpg'),
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: CircleAvatar(
                           radius: 30,
+                          backgroundImage: AssetImage('assets/samosii.jpg'),
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: CircleAvatar(
                           radius: 30,
+                          backgroundImage: AssetImage('assets/dessert.jpg'),
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: CircleAvatar(
                           radius: 30,
+                          backgroundImage: AssetImage('assets/chick.jpg'),
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: CircleAvatar(
                           radius: 30,
+                          backgroundImage: AssetImage('assets/french.jpg'),
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: CircleAvatar(
                           radius: 30,
+                          backgroundImage: AssetImage('assets/drink.jpg'),
                         ),
                       ),
                     ],
