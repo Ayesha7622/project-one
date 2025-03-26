@@ -6145,7 +6145,7 @@ class MyApp extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Text(
-                    'Categories',
+                    'Recommended Products',
                     style: TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.w600,
