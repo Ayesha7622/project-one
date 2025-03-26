@@ -5817,6 +5817,7 @@ class MyApp extends StatelessWidget {
                         fontWeight: FontWeight.w300,
                         color: Colors.black),
                   ),
+                  Spacer(),
                   Column(
                     children: [
                       Text(
