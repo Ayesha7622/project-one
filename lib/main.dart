@@ -5831,7 +5831,7 @@ class MyApp extends StatelessWidget {
                       ),
                       Text('Pizza',
                           style: TextStyle(
-                              fontSize: 10,
+                              fontSize: 20,
                               fontWeight: FontWeight.w300,
                               color: Colors.grey))
                     ],
