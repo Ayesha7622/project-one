@@ -6172,9 +6172,12 @@ class MyApp extends StatelessWidget {
             Row(
               children: [
                 Container(
-                  height: 300,
-                  width: 400,
-                  color: const Color.fromARGB(255, 233, 221, 234),
+                  height: 450,
+                  width: 600,
+                  decoration: BoxDecoration(
+                    color: const Color.fromARGB(255, 232, 211, 241),
+                    borderRadius: BorderRadius.circular(23),
+                  ),
                   child: Container(
                     height: 200,
                     width: 300,
