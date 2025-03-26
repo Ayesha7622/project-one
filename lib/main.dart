@@ -5810,22 +5810,28 @@ class MyApp extends StatelessWidget {
               ),
               Row(
                 children: [
-                  Text(
-                    'Categories',
-                    style: TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.w300,
-                        color: Colors.black),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text(
+                      'Categories',
+                      style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.w300,
+                          color: Colors.black),
+                    ),
                   ),
                   Spacer(),
                   Column(
                     children: [
-                      Text(
-                        'See All',
-                        style: TextStyle(
-                            fontSize: 20,
-                            fontWeight: FontWeight.w300,
-                            color: Colors.pink),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text(
+                          'See All',
+                          style: TextStyle(
+                              fontSize: 20,
+                              fontWeight: FontWeight.w300,
+                              color: Colors.pink),
+                        ),
                       )
                     ],
                   )
