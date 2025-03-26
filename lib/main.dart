@@ -5684,6 +5684,7 @@ class MyApp extends StatelessWidget {
           ],
         ),
         body: SingleChildScrollView(
+          scrollDirection: Axis.vertical,
           child: Column(
             children: [
               Row(
@@ -5806,6 +5807,17 @@ class MyApp extends StatelessWidget {
                     )
                   ],
                 ),
+              ),
+              Row(
+                children: [
+                  Text(
+                    'Categories',
+                    style: TextStyle(
+                        fontSize: 10,
+                        fontWeight: FontWeight.w300,
+                        color: Colors.black),
+                  )
+                ],
               )
             ],
           ),
