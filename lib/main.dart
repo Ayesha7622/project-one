@@ -6140,6 +6140,35 @@ class MyApp extends StatelessWidget {
                 ],
               ),
             ),
+            Row(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(
+                    'Categories',
+                    style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.black),
+                  ),
+                ),
+                Spacer(),
+                Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text(
+                        'See All',
+                        style: TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.w300,
+                            color: Colors.pink),
+                      ),
+                    )
+                  ],
+                )
+              ],
+            ),
           ]),
         ),
       ),
