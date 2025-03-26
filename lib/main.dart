@@ -6172,23 +6172,27 @@ class MyApp extends StatelessWidget {
             Row(
               children: [
                 Container(
-                  height: 200,
-                  width: 300,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(15),
-                    color: Colors.white60,
-                    image: DecorationImage(
-                        image: AssetImage('assets/burgerr.jpg')),
-                  ),
-                  child: Column(
-                    children: [
-                      Text(
-                        'Burger King',
-                        style: TextStyle(
-                            fontSize: 20, fontWeight: FontWeight.w500),
-                      ),
-                      Text('\$180.00'),
-                    ],
+                  height: 300,
+                  width: 400,
+                  child: Container(
+                    height: 200,
+                    width: 300,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15),
+                      color: Colors.white60,
+                      image: DecorationImage(
+                          image: AssetImage('assets/burgerr.jpg')),
+                    ),
+                    child: Column(
+                      children: [
+                        Text(
+                          'Burger King',
+                          style: TextStyle(
+                              fontSize: 20, fontWeight: FontWeight.w500),
+                        ),
+                        Text('\$180.00'),
+                      ],
+                    ),
                   ),
                 )
               ],
