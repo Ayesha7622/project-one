@@ -5683,81 +5683,55 @@ class MyApp extends StatelessWidget {
             ),
           ],
         ),
-        body: Column(
-          children: [
-            Row(
-              children: [
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    height: 50,
-                    width: 300,
-                    decoration: BoxDecoration(
-                      color: const Color.fromARGB(255, 224, 216, 216),
-                      borderRadius: BorderRadius.circular(15),
-                    ),
-                    child: Row(
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Icon(Icons.search,
-                              color: const Color.fromARGB(255, 105, 101, 101)),
-                        ),
-                        Text(
-                          'Search Favourite Food',
-                          style: TextStyle(
-                              fontSize: 15,
-                              fontWeight: FontWeight.w300,
-                              color: const Color.fromARGB(255, 105, 101, 101)),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-                Spacer(),
-                Column(
-                  children: [
-                    Container(
+        body: SingleChildScrollView(
+          child: Column(
+            children: [
+              Row(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
                       height: 50,
-                      width: 80,
+                      width: 300,
                       decoration: BoxDecoration(
-                        color: const Color.fromARGB(255, 218, 109, 41),
+                        color: const Color.fromARGB(255, 224, 216, 216),
                         borderRadius: BorderRadius.circular(15),
                       ),
-                      child: Row(children: [
-                        Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            'Delivery',
+                      child: Row(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Icon(Icons.search,
+                                color:
+                                    const Color.fromARGB(255, 105, 101, 101)),
+                          ),
+                          Text(
+                            'Search Favourite Food',
                             style: TextStyle(
                                 fontSize: 15,
                                 fontWeight: FontWeight.w300,
-                                color: const Color.fromARGB(255, 13, 13, 13)),
+                                color:
+                                    const Color.fromARGB(255, 105, 101, 101)),
                           ),
-                        ),
-                      ]),
+                        ],
+                      ),
                     ),
-                  ],
-                ),
-                // SizedBox(
-                //   width: 3,
-                // ),
-                Column(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Container(
+                  ),
+                  Spacer(),
+                  Column(
+                    children: [
+                      Container(
                         height: 50,
                         width: 80,
                         decoration: BoxDecoration(
-                          color: const Color.fromARGB(255, 247, 236, 229),
+                          color: const Color.fromARGB(255, 218, 109, 41),
                           borderRadius: BorderRadius.circular(15),
                         ),
                         child: Row(children: [
                           Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: Text(
-                              'Dining',
+                              'Delivery',
                               style: TextStyle(
                                   fontSize: 15,
                                   fontWeight: FontWeight.w300,
@@ -5766,41 +5740,72 @@ class MyApp extends StatelessWidget {
                           ),
                         ]),
                       ),
-                    ),
-                  ],
-                ),
-              ],
-            ),
-            Row(
-              children: [
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Text(
-                    'Top Deals',
-                    style: TextStyle(
-                        fontSize: 25,
-                        fontWeight: FontWeight.w300,
-                        color: Colors.black),
+                    ],
                   ),
-                )
-              ],
-            ),
-            Row(
-              children: [
-                Container(
-                  height: 200,
-                  width: 1000,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(15),
-                    image: DecorationImage(
-                      image: AssetImage('assets/giggg.jpg'),
-                      fit: BoxFit.cover,
-                    ),
+                  // SizedBox(
+                  //   width: 3,
+                  // ),
+                  Column(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Container(
+                          height: 50,
+                          width: 80,
+                          decoration: BoxDecoration(
+                            color: const Color.fromARGB(255, 247, 236, 229),
+                            borderRadius: BorderRadius.circular(15),
+                          ),
+                          child: Row(children: [
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Text(
+                                'Dining',
+                                style: TextStyle(
+                                    fontSize: 15,
+                                    fontWeight: FontWeight.w300,
+                                    color:
+                                        const Color.fromARGB(255, 13, 13, 13)),
+                              ),
+                            ),
+                          ]),
+                        ),
+                      ),
+                    ],
                   ),
-                )
-              ],
-            )
-          ],
+                ],
+              ),
+              Row(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text(
+                      'Top Deals',
+                      style: TextStyle(
+                          fontSize: 25,
+                          fontWeight: FontWeight.w300,
+                          color: Colors.black),
+                    ),
+                  )
+                ],
+              ),
+              Row(
+                children: [
+                  Container(
+                    height: 400,
+                    width: 1000,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15),
+                      image: DecorationImage(
+                        image: AssetImage('assets/giggg.jpg'),
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                  )
+                ],
+              )
+            ],
+          ),
         ),
       ),
     );
