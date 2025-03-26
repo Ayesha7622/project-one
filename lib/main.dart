@@ -5816,7 +5816,7 @@ class MyApp extends StatelessWidget {
                       'Categories',
                       style: TextStyle(
                           fontSize: 20,
-                          fontWeight: FontWeight.w300,
+                          fontWeight: FontWeight.w600,
                           color: Colors.black),
                     ),
                   ),
@@ -5834,6 +5834,13 @@ class MyApp extends StatelessWidget {
                         ),
                       )
                     ],
+                  )
+                ],
+              ),
+              Row(
+                children: [
+                  CircleAvatar(
+                    radius: 30,
                   )
                 ],
               )
