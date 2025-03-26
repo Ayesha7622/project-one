@@ -5823,9 +5823,12 @@ class MyApp extends StatelessWidget {
                         child: CircleAvatar(
                           radius: 35,
                           backgroundColor: Colors.orange,
-                          child: CircleAvatar(
-                            radius: 30,
-                            backgroundImage: AssetImage('assets/Pizzza.jpg'),
+                          child: SizedBox(
+                            width: 5,
+                            child: CircleAvatar(
+                              radius: 30,
+                              backgroundImage: AssetImage('assets/Pizzza.jpg'),
+                            ),
                           ),
                         ),
                       ),
