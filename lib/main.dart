@@ -5930,6 +5930,12 @@ class MyApp extends StatelessWidget {
                         radius: 30,
                       ),
                     ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: CircleAvatar(
+                        radius: 30,
+                      ),
+                    ),
                   ],
                 )
               ],
