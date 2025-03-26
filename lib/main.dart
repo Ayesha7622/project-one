@@ -5841,6 +5841,13 @@ class MyApp extends StatelessWidget {
                 children: [
                   CircleAvatar(
                     radius: 30,
+                  ),
+                  Column(
+                    children: [
+                      CircleAvatar(
+                        radius: 30,
+                      ),
+                    ],
                   )
                 ],
               )
