@@ -6169,6 +6169,18 @@ class MyApp extends StatelessWidget {
                 )
               ],
             ),
+            Row(
+              children: [
+                Container(
+                  height: 30,
+                  width: 50,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(15),
+                    color: Colors.white60,
+                  ),
+                )
+              ],
+            )
           ]),
         ),
       ),
