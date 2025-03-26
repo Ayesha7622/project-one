@@ -5986,27 +5986,6 @@ class MyApp extends StatelessWidget {
                           backgroundColor: Colors.orange,
                           child: CircleAvatar(
                             radius: 30,
-                            backgroundImage:
-                                AssetImage('assets/sandwiches.jpg'),
-                          ),
-                        ),
-                      ),
-                      Text('Sandwich',
-                          style: TextStyle(
-                              fontSize: 20,
-                              fontWeight: FontWeight.w300,
-                              color: Colors.grey))
-                    ],
-                  ),
-                  Column(
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: CircleAvatar(
-                          radius: 35,
-                          backgroundColor: Colors.orange,
-                          child: CircleAvatar(
-                            radius: 30,
                             backgroundImage: AssetImage('assets/icee.jpg'),
                           ),
                         ),
