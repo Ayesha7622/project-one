@@ -5850,7 +5850,7 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                       ),
-                      Text('Roll paratha',
+                      Text('Paratha',
                           style: TextStyle(
                               fontSize: 20,
                               fontWeight: FontWeight.w300,
@@ -5930,7 +5930,7 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                       ),
-                      Text('Hot-Dogs',
+                      Text('Hot-Dog',
                           style: TextStyle(
                               fontSize: 20,
                               fontWeight: FontWeight.w300,
@@ -5991,7 +5991,7 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                       ),
-                      Text('Sandwiches',
+                      Text('Sandwich',
                           style: TextStyle(
                               fontSize: 20,
                               fontWeight: FontWeight.w300,
