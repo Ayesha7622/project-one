@@ -6177,18 +6177,19 @@ class MyApp extends StatelessWidget {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15),
                     color: Colors.white60,
-                    image: DecorationImage(image: AssetImage('assets/burgerr.jpg')),
+                    image: DecorationImage(
+                        image: AssetImage('assets/burgerr.jpg')),
                   ),
-                  child:Column(
+                  child: Column(
                     children: [
-                      Text('Burger King',style: TextStyle(fontSize: 20,fontWeight: FontWeight.w500
+                      Text(
+                        'Burger King',
+                        style: TextStyle(
+                            fontSize: 20, fontWeight: FontWeight.w500),
                       ),
-                      ),
-                      Text('/$180.00'),
+                      Text('\$180.00'),
                     ],
                   ),
-                  
-
                 )
               ],
             )
