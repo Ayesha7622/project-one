@@ -5788,8 +5788,8 @@ class MyApp extends StatelessWidget {
             Row(
               children: [
                 Container(
-                  height: 100,
-                  width: 300,
+                  height: 200,
+                  width: 1000,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15),
                     image: DecorationImage(
