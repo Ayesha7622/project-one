@@ -5642,69 +5642,33 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Colors.orange,
           leading: Icon(Icons.restaurant_menu_sharp, color: Colors.white),
-          title: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text('FOODXA',
+          title:
+              Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+            Text('FOODXA',
+                style: TextStyle(
+                    fontSize: 17,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white)),
+            Row(
+              children: [
+                Text(
+                  'Good Food Good Health',
                   style: TextStyle(
-                      fontSize: 17,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white)),
-              Row(
-                children: [
-                  Text(
-                    'Good Food Good Health',
+                      fontSize: 10,
+                      fontWeight: FontWeight.normal,
+                      color: Colors.white),
+                ),
+                Spacer(),
+                Text('Sector 67,San..',
                     style: TextStyle(
                         fontSize: 10,
                         fontWeight: FontWeight.normal,
-                        color: Colors.white),
-                  ),
-                ],
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.end,
-                children: [
-                  SizedBox(
-                    height: 30,
-                  ),
-                  Text('Sector 67,San..',
-                      style: TextStyle(
-                          fontSize: 10,
-                          fontWeight: FontWeight.normal,
-                          color: Colors.white)),
-                  SizedBox(width: 10),
-                  Icon(Icons.location_on, color: Colors.white),
-                  SizedBox(
-                    width: 10,
-                  )
-                ],
-              ),
-              //
-            ],
-          ),
-          actions: [
-            Padding(
-              padding: const EdgeInsets.all(12.0),
-              // child: Row(
-              //   mainAxisAlignment: MainAxisAlignment.end,
-              //   children: [
-              //     SizedBox(
-              //       height: 30,
-              //     ),
-              //     Text('Sector 67,San..',
-              //         style: TextStyle(
-              //             fontSize: 10,
-              //             fontWeight: FontWeight.normal,
-              //             color: Colors.white)),
-              //     SizedBox(width: 10),
-              //     Icon(Icons.location_on, color: Colors.white),
-              //     SizedBox(
-              //       width: 10,
-              //     )
-              //   ],
-              // ),
-            ),
-          ],
+                        color: Colors.white)),
+                SizedBox(width: 10),
+                Icon(Icons.location_on, color: Colors.white),
+              ],
+            )
+          ]),
         ),
         body: SingleChildScrollView(
           scrollDirection: Axis.vertical,
