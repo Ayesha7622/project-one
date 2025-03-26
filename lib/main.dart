@@ -5643,26 +5643,25 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.orange,
           leading: Icon(Icons.restaurant_menu_sharp, color: Colors.white),
           title: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text('FOODXA',
                   style: TextStyle(
                       fontSize: 17,
                       fontWeight: FontWeight.bold,
                       color: Colors.white)),
-              Text(
-                'Good Food Good Health',
-                style: TextStyle(
-                    fontSize: 10,
-                    fontWeight: FontWeight.normal,
-                    color: Colors.white),
+              Row(
+                children: [
+                  Text(
+                    'Good Food Good Health',
+                    style: TextStyle(
+                        fontSize: 10,
+                        fontWeight: FontWeight.normal,
+                        color: Colors.white),
+                  ),
+                ],
               ),
-              //
-            ],
-          ),
-          actions: [
-            Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: Row(
+              Row(
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
                   SizedBox(
@@ -5680,6 +5679,30 @@ class MyApp extends StatelessWidget {
                   )
                 ],
               ),
+              //
+            ],
+          ),
+          actions: [
+            Padding(
+              padding: const EdgeInsets.all(12.0),
+              // child: Row(
+              //   mainAxisAlignment: MainAxisAlignment.end,
+              //   children: [
+              //     SizedBox(
+              //       height: 30,
+              //     ),
+              //     Text('Sector 67,San..',
+              //         style: TextStyle(
+              //             fontSize: 10,
+              //             fontWeight: FontWeight.normal,
+              //             color: Colors.white)),
+              //     SizedBox(width: 10),
+              //     Icon(Icons.location_on, color: Colors.white),
+              //     SizedBox(
+              //       width: 10,
+              //     )
+              //   ],
+              // ),
             ),
           ],
         ),
@@ -5716,59 +5739,51 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
                 Spacer(),
-                Column(
-                  children: [
-                    Container(
-                      height: 50,
-                      width: 80,
-                      decoration: BoxDecoration(
-                        color: const Color.fromARGB(255, 218, 109, 41),
-                        borderRadius: BorderRadius.circular(15),
+                Container(
+                  height: 50,
+                  width: 80,
+                  decoration: BoxDecoration(
+                    color: const Color.fromARGB(255, 218, 109, 41),
+                    borderRadius: BorderRadius.circular(15),
+                  ),
+                  child: Row(children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text(
+                        'Delivery',
+                        style: TextStyle(
+                            fontSize: 15,
+                            fontWeight: FontWeight.w300,
+                            color: const Color.fromARGB(255, 13, 13, 13)),
                       ),
-                      child: Row(children: [
-                        Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            'Delivery',
-                            style: TextStyle(
-                                fontSize: 15,
-                                fontWeight: FontWeight.w300,
-                                color: const Color.fromARGB(255, 13, 13, 13)),
-                          ),
-                        ),
-                      ]),
                     ),
-                  ],
+                  ]),
                 ),
                 // SizedBox(
                 //   width: 3,
                 // ),
-                Column(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Container(
-                        height: 50,
-                        width: 80,
-                        decoration: BoxDecoration(
-                          color: const Color.fromARGB(255, 247, 236, 229),
-                          borderRadius: BorderRadius.circular(15),
-                        ),
-                        child: Row(children: [
-                          Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Text(
-                              'Dining',
-                              style: TextStyle(
-                                  fontSize: 15,
-                                  fontWeight: FontWeight.w300,
-                                  color: const Color.fromARGB(255, 13, 13, 13)),
-                            ),
-                          ),
-                        ]),
-                      ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    height: 50,
+                    width: 80,
+                    decoration: BoxDecoration(
+                      color: const Color.fromARGB(255, 247, 236, 229),
+                      borderRadius: BorderRadius.circular(15),
                     ),
-                  ],
+                    child: Row(children: [
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text(
+                          'Dining',
+                          style: TextStyle(
+                              fontSize: 15,
+                              fontWeight: FontWeight.w300,
+                              color: const Color.fromARGB(255, 13, 13, 13)),
+                        ),
+                      ),
+                    ]),
+                  ),
                 ),
               ],
             ),
@@ -5791,8 +5806,8 @@ class MyApp extends StatelessWidget {
               child: Row(
                 children: [
                   Container(
-                    height: 400,
-                    width: 1300,
+                    height: 300,
+                    width: 500,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(15),
                       image: DecorationImage(
