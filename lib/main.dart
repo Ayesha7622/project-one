@@ -6181,7 +6181,7 @@ class MyApp extends StatelessWidget {
                 ),
                 Row(children: [
                   Container(
-                    height: 400,
+                    height: 300,
                     width: 500,
                     decoration: BoxDecoration(
                       color: const Color.fromARGB(255, 231, 190, 248),
