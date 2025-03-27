@@ -6188,8 +6188,8 @@ class MyApp extends StatelessWidget {
                       borderRadius: BorderRadius.circular(23),
                     ),
                     child: Container(
-                      height: 150,
-                      width: 200,
+                      height: 100,
+                      width: 150,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(15),
                         //color: Colors.white60,
