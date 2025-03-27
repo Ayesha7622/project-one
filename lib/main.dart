@@ -6181,15 +6181,15 @@ class MyApp extends StatelessWidget {
                 ),
                 Row(children: [
                   Container(
-                    height: 400,
-                    width: 500,
+                    height: 150,
+                    width: 200,
                     decoration: BoxDecoration(
                       color: const Color.fromARGB(255, 231, 190, 248),
                       borderRadius: BorderRadius.circular(23),
                     ),
                     child: Container(
-                      height: 70,
-                      width: 100,
+                      height: 300,
+                      width: 400,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(15),
                         //color: Colors.white60,
