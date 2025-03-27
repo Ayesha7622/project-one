@@ -6232,6 +6232,16 @@ class MyApp extends StatelessWidget {
                     ),
                   )
                 ]),
+                Row(
+                  children: [
+                    Icon(
+                      Icons.home,
+                      color: Colors.orange,
+                      size: 70,
+                    ),
+                    Icon(Icons.heart_broken)
+                  ],
+                )
               ],
             )),
       ),
