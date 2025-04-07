@@ -6272,7 +6272,7 @@ class MyApp extends StatelessWidget {
                               //color: const Color.fromARGB(255, 231, 190, 248),
                               borderRadius: BorderRadius.circular(23),
                               image: DecorationImage(
-                                image: AssetImage('assets/french.jpg'),
+                                image: AssetImage('assets/kbab.jpg'),
                               ),
                             ),
                           ),
