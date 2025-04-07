@@ -6258,6 +6258,44 @@ class MyApp extends StatelessWidget {
                           )
                         ],
                       ),
+                    ),
+                    Card(
+                      child: Column(
+                        children: [
+                          SizedBox(
+                            height: 20,
+                          ),
+                          Container(
+                            height: 100,
+                            width: 180,
+                            decoration: BoxDecoration(
+                              //color: const Color.fromARGB(255, 231, 190, 248),
+                              borderRadius: BorderRadius.circular(23),
+                              image: DecorationImage(
+                                  image: AssetImage('assets/Shashlic.jpg')),
+                            ),
+                          ),
+                          SizedBox(
+                            height: 10,
+                          ),
+                          Text(
+                            'Chicken Shaushlic',
+                            style: TextStyle(
+                                fontSize: 20, fontWeight: FontWeight.w600),
+                          ),
+                          Row(
+                            children: [
+                              Text(
+                                '\$190.00',
+                                style: TextStyle(
+                                    fontSize: 17,
+                                    fontWeight: FontWeight.w400,
+                                    color: Colors.grey),
+                              )
+                            ],
+                          )
+                        ],
+                      ),
                     )
                   ]),
                 ),
