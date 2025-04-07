@@ -6198,11 +6198,6 @@ class MyApp extends StatelessWidget {
                               image: DecorationImage(
                                   image: AssetImage('assets/burgerr.jpg')),
                             ),
-                            child: Text(
-                              'Burger King',
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.w600),
-                            ),
 
                             // child: Column(
                             //   children: [
@@ -6219,7 +6214,22 @@ class MyApp extends StatelessWidget {
                           SizedBox(
                             height: 10,
                           ),
-                          Text('data')
+                          Text(
+                            'Burger King',
+                            style: TextStyle(
+                                fontSize: 20, fontWeight: FontWeight.w600),
+                          ),
+                          Row(
+                            children: [
+                              Text(
+                                '\$180.00',
+                                style: TextStyle(
+                                    fontSize: 17,
+                                    fontWeight: FontWeight.w400,
+                                    color: Colors.grey),
+                              )
+                            ],
+                          )
                         ],
                       ),
                     ),
