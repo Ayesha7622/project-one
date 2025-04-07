@@ -6187,6 +6187,8 @@ class MyApp extends StatelessWidget {
                       child: Card(
                         color: Colors.blueGrey,
                         child: Container(
+                          height: 100,
+                          width: 180,
                           decoration: BoxDecoration(
                             color: const Color.fromARGB(255, 231, 190, 248),
                             borderRadius: BorderRadius.circular(23),
