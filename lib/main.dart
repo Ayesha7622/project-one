@@ -6182,32 +6182,45 @@ class MyApp extends StatelessWidget {
                 SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
                   child: Row(children: [
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Card(
-                        color: Colors.blueGrey,
-                        child: Container(
-                          height: 100,
-                          width: 180,
-                          decoration: BoxDecoration(
-                            //color: const Color.fromARGB(255, 231, 190, 248),
-                            borderRadius: BorderRadius.circular(23),
-                            image: DecorationImage(
-                                image: AssetImage('assets/burgerr.jpg')),
+                    Card(
+                      //color: Colors.blueGrey,
+                      child: Column(
+                        children: [
+                          SizedBox(
+                            height: 20,
                           ),
+                          Container(
+                            height: 100,
+                            width: 180,
+                            decoration: BoxDecoration(
+                              //color: const Color.fromARGB(255, 231, 190, 248),
+                              borderRadius: BorderRadius.circular(23),
+                              image: DecorationImage(
+                                  image: AssetImage('assets/burgerr.jpg')),
+                            ),
+                            child: Text(
+                              'Burger King',
+                              style: TextStyle(
+                                  fontSize: 20, fontWeight: FontWeight.w600),
+                            ),
 
-                          // child: Column(
-                          //   children: [
-                          //     Spacer(),
-                          //     Text(
-                          //       'Burger King',
-                          //       style: TextStyle(
-                          //           fontSize: 20, fontWeight: FontWeight.w600),
-                          //     ),
-                          //     Text('\$180.00'),
-                          //   ],
-                          // ),
-                        ),
+                            // child: Column(
+                            //   children: [
+                            //     Spacer(),
+                            //     Text(
+                            //       'Burger King',
+                            //       style: TextStyle(
+                            //           fontSize: 20, fontWeight: FontWeight.w600),
+                            //     ),
+                            //     Text('\$180.00'),
+                            //   ],
+                            // ),
+                          ),
+                          SizedBox(
+                            height: 10,
+                          ),
+                          Text('data')
+                        ],
                       ),
                     ),
                     SizedBox(width: 20),
