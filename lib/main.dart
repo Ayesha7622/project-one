@@ -6179,59 +6179,67 @@ class MyApp extends StatelessWidget {
                     )
                   ],
                 ),
-                Row(children: [
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Container(
+                SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: Row(children: [
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Container(
+                        height: 250,
+                        width: 150,
+                        decoration: BoxDecoration(
+                          color: const Color.fromARGB(255, 231, 190, 248),
+                          borderRadius: BorderRadius.circular(23),
+                        ),
+                        child: Column(
+                          children: [
+                            Container(
+                              height: 150,
+                              width: 150,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(15),
+                                //color: Colors.white60,
+                                image: DecorationImage(
+                                    image: AssetImage('assets/burgerr.jpg')),
+                              ),
+                              // child: Column(
+                              //   children: [
+                              //     Spacer(),
+                              //     Text(
+                              //       'Burger King',
+                              //       style: TextStyle(
+                              //           fontSize: 20, fontWeight: FontWeight.w600),
+                              //     ),
+                              //     Text('\$180.00'),
+                              //   ],
+                              // ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                    SizedBox(width: 20),
+                    Container(
                       height: 300,
                       width: 500,
                       decoration: BoxDecoration(
                         color: const Color.fromARGB(255, 231, 190, 248),
                         borderRadius: BorderRadius.circular(23),
                       ),
-                      // child: Container(
-                      //   height: 200,
-                      //   width: 300,
-                      //   decoration: BoxDecoration(
-                      //     borderRadius: BorderRadius.circular(15),
-                      //     //color: Colors.white60,
-                      //     image: DecorationImage(
-                      //         image: AssetImage('assets/burgerr.jpg')),
-                      //   ),
                       child: Column(
                         children: [
                           Spacer(),
                           Text(
-                            'Burger King',
+                            'Family Pizza',
                             style: TextStyle(
                                 fontSize: 20, fontWeight: FontWeight.w600),
                           ),
-                          Text('\$180.00'),
+                          Text('\$140.00'),
                         ],
                       ),
-                    ),
-                  ),
-                  SizedBox(width: 20),
-                  Container(
-                    height: 300,
-                    width: 500,
-                    decoration: BoxDecoration(
-                      color: const Color.fromARGB(255, 231, 190, 248),
-                      borderRadius: BorderRadius.circular(23),
-                    ),
-                    child: Column(
-                      children: [
-                        Spacer(),
-                        Text(
-                          'Family Pizza',
-                          style: TextStyle(
-                              fontSize: 20, fontWeight: FontWeight.w600),
-                        ),
-                        Text('\$140.00'),
-                      ],
-                    ),
-                  )
-                ]),
+                    )
+                  ]),
+                ),
                 Row(
                   children: [
                     Icon(
