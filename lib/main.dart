@@ -6280,7 +6280,7 @@ class MyApp extends StatelessWidget {
                             height: 10,
                           ),
                           Text(
-                            'Chicken Shaushlic',
+                            'Beaf Kbab',
                             style: TextStyle(
                                 fontSize: 20, fontWeight: FontWeight.w600),
                           ),
