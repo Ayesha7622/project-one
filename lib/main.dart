@@ -6362,7 +6362,7 @@ class MyApp extends StatelessWidget {
                         child: Icon(Icons.badge, color: Colors.white)),
                     Icon(
                       Icons.heart_broken,
-                      color: Colors.orange,
+                      color: Colors.grey,
                       size: 40,
                     ),
                     Icon(
