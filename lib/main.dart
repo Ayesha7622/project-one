@@ -6190,7 +6190,7 @@ class MyApp extends StatelessWidget {
                           height: 100,
                           width: 180,
                           decoration: BoxDecoration(
-                            color: const Color.fromARGB(255, 231, 190, 248),
+                            //color: const Color.fromARGB(255, 231, 190, 248),
                             borderRadius: BorderRadius.circular(23),
                             image: DecorationImage(
                                 image: AssetImage('assets/burgerr.jpg')),
