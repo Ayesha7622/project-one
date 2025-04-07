@@ -5739,7 +5739,10 @@ class MyApp extends StatelessWidget {
                         width: 80,
                         decoration: BoxDecoration(
                           color: const Color.fromARGB(255, 247, 236, 229),
-                          borderRadius: BorderRadius.circular(15),
+                          borderRadius: BorderRadius.only(
+                            topRight: Radius.circular(10),
+                            bottomRight: Radius.circular(10),
+                          ),
                         ),
                         child: Row(children: [
                           Padding(
