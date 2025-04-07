@@ -6222,7 +6222,7 @@ class MyApp extends StatelessWidget {
                         ],
                       ),
                     ),
-                    SizedBox(width: 30),
+                    SizedBox(width: 50),
                     Card(
                       child: Column(
                         children: [
@@ -6261,7 +6261,7 @@ class MyApp extends StatelessWidget {
                         ],
                       ),
                     ),
-                    SizedBox(width: 30),
+                    SizedBox(width: 50),
                     Card(
                       child: Column(
                         children: [
@@ -6301,7 +6301,7 @@ class MyApp extends StatelessWidget {
                         ],
                       ),
                     ),
-                    SizedBox(width: 30),
+                    SizedBox(width: 50),
                     Card(
                       child: Column(
                         children: [
