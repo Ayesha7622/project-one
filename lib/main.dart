@@ -6184,37 +6184,28 @@ class MyApp extends StatelessWidget {
                   child: Row(children: [
                     Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: Container(
-                        height: 250,
-                        width: 150,
-                        decoration: BoxDecoration(
-                          color: const Color.fromARGB(255, 231, 190, 248),
-                          borderRadius: BorderRadius.circular(23),
-                        ),
-                        child: Column(
-                          children: [
-                            Container(
-                              height: 150,
-                              width: 150,
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(15),
-                                //color: Colors.white60,
-                                image: DecorationImage(
-                                    image: AssetImage('assets/burgerr.jpg')),
-                              ),
-                              // child: Column(
-                              //   children: [
-                              //     Spacer(),
-                              //     Text(
-                              //       'Burger King',
-                              //       style: TextStyle(
-                              //           fontSize: 20, fontWeight: FontWeight.w600),
-                              //     ),
-                              //     Text('\$180.00'),
-                              //   ],
-                              // ),
-                            ),
-                          ],
+                      child: Card(
+                        child: Container(
+                          height: 250,
+                          width: 150,
+                          decoration: BoxDecoration(
+                            color: const Color.fromARGB(255, 231, 190, 248),
+                            borderRadius: BorderRadius.circular(23),
+                            image: DecorationImage(
+                                image: AssetImage('assets/burgerr.jpg')),
+                          ),
+
+                          // child: Column(
+                          //   children: [
+                          //     Spacer(),
+                          //     Text(
+                          //       'Burger King',
+                          //       style: TextStyle(
+                          //           fontSize: 20, fontWeight: FontWeight.w600),
+                          //     ),
+                          //     Text('\$180.00'),
+                          //   ],
+                          // ),
                         ),
                       ),
                     ),
