@@ -6344,6 +6344,7 @@ class MyApp extends StatelessWidget {
                   ]),
                 ),
                 Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Icon(
                       Icons.home,
