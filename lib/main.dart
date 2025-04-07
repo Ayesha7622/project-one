@@ -6272,7 +6272,8 @@ class MyApp extends StatelessWidget {
                               //color: const Color.fromARGB(255, 231, 190, 248),
                               borderRadius: BorderRadius.circular(23),
                               image: DecorationImage(
-                                  image: AssetImage('assets/chick.jpg')),
+                                  image: AssetImage('assets/chick.jpg'),
+                                  fit: BoxFit.cover),
                             ),
                           ),
                           SizedBox(
