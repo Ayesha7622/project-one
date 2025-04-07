@@ -6182,6 +6182,7 @@ class MyApp extends StatelessWidget {
                 SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
                   child: Row(children: [
+                    SizedBox(width: 10),
                     Card(
                       //color: Colors.blueGrey,
                       child: Column(
@@ -6221,6 +6222,7 @@ class MyApp extends StatelessWidget {
                         ],
                       ),
                     ),
+                    SizedBox(width: 10),
                     Card(
                       child: Column(
                         children: [
@@ -6259,6 +6261,7 @@ class MyApp extends StatelessWidget {
                         ],
                       ),
                     ),
+                    SizedBox(width: 10),
                     Card(
                       child: Column(
                         children: [
@@ -6298,6 +6301,7 @@ class MyApp extends StatelessWidget {
                         ],
                       ),
                     ),
+                    SizedBox(width: 10),
                     Card(
                       child: Column(
                         children: [
