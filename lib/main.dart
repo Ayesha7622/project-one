@@ -6348,12 +6348,12 @@ class MyApp extends StatelessWidget {
                     Icon(
                       Icons.home,
                       color: Colors.orange,
-                      size: 70,
+                      size: 40,
                     ),
                     Icon(
                       Icons.alarm_sharp,
                       color: Colors.grey,
-                      size: 70,
+                      size: 40,
                     ),
                     CircleAvatar(
                         radius: 30,
@@ -6362,12 +6362,12 @@ class MyApp extends StatelessWidget {
                     Icon(
                       Icons.heart_broken,
                       color: Colors.orange,
-                      size: 70,
+                      size: 40,
                     ),
                     Icon(
                       Icons.person_3_sharp,
                       color: Colors.grey,
-                      size: 70,
+                      size: 40,
                     ),
                   ],
                 )
