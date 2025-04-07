@@ -6278,6 +6278,7 @@ class MyApp extends StatelessWidget {
                           ),
                           SizedBox(
                             height: 10,
+                            width: 7,
                           ),
                           Text(
                             'Chicken Shaushlic',
