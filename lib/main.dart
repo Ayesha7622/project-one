@@ -5691,47 +5691,39 @@ class MyApp extends StatelessWidget {
                             bottomLeft: Radius.circular(10),
                           ),
                         ),
-                        child: Row(children: [
-                          Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Text(
-                              'Delivery',
-                              style: TextStyle(
-                                  fontSize: 15,
-                                  fontWeight: FontWeight.w300,
-                                  color: const Color.fromARGB(255, 13, 13, 13)),
-                            ),
+                        child: Center(
+//                          padding: const EdgeInsets.all(8.0),
+                          child: Text(
+                            'Delivery',
+                            style: TextStyle(
+                                fontSize: 15,
+                                fontWeight: FontWeight.w300,
+                                color: const Color.fromARGB(255, 13, 13, 13)),
                           ),
-                        ]),
+                        ),
                       ),
                       // SizedBox(
                       //   width: 3,
                       // ),
-                      Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Container(
-                          height: 50,
-                          width: 80,
-                          decoration: BoxDecoration(
-                            color: const Color.fromARGB(255, 247, 236, 229),
-                            borderRadius: BorderRadius.only(
-                              topRight: Radius.circular(10),
-                              bottomRight: Radius.circular(10),
-                            ),
+                      Container(
+                        height: 50,
+                        width: 80,
+                        decoration: BoxDecoration(
+                          color: const Color.fromARGB(255, 247, 236, 229),
+                          borderRadius: BorderRadius.only(
+                            topRight: Radius.circular(10),
+                            bottomRight: Radius.circular(10),
                           ),
-                          child: Row(children: [
-                            Padding(
-                              padding: const EdgeInsets.all(8.0),
-                              child: Text(
-                                'Dining',
-                                style: TextStyle(
-                                    fontSize: 15,
-                                    fontWeight: FontWeight.w300,
-                                    color:
-                                        const Color.fromARGB(255, 13, 13, 13)),
-                              ),
-                            ),
-                          ]),
+                        ),
+                        child: Center(
+                          // padding: const EdgeInsets.all(8.0),
+                          child: Text(
+                            'Dining',
+                            style: TextStyle(
+                                fontSize: 15,
+                                fontWeight: FontWeight.w300,
+                                color: const Color.fromARGB(255, 13, 13, 13)),
+                          ),
                         ),
                       ),
                     ],
