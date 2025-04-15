@@ -204,6 +204,7 @@ class MyApp extends StatelessWidget {
 }
 */
 
+/*
 import 'package:flutter/material.dart';
 
 void main() {
@@ -250,54 +251,39 @@ class MyApp extends StatelessWidget {
                         ))))));
   }
 }
+*/
 
+import 'package:flutter/material.dart';
 
-/*
-import'package:flutter/material.dart';
-
-void main()
-{
+void main() {
   runApp(MyApp());
 }
-class MyApp extends StatelessWidget
-{
-const MyApp({super.key});
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
   @override
-
-Widget build(BuildContext context)
-  {
-    return MaterialApp
-      (
-      home:Scaffold
-        (
-        backgroundColor:Colors.lightGreen,
-        appBar:AppBar
-          (
-          backgroundColor:Colors.orangeAccent,
-          leading:CircleAvatar
-            (
-
-          ),
-          title:Text
-            ('good Morning',style:TextStyle(fontSize:20,fontWeight:FontWeight.w300),
-            ),
+  Widget build(BuildContext context) {
+    return MaterialApp(
+        home: Scaffold(
+      backgroundColor: Colors.lightGreen,
+      appBar: AppBar(
+        backgroundColor: Colors.orangeAccent,
+        leading: CircleAvatar(),
+        title: Text(
+          'good Morning',
+          style: TextStyle(fontSize: 20, fontWeight: FontWeight.w300),
         ),
-        body:Center
-          (
-          child:Text('flutter beginner',style:TextStyle(fontSize:50,fontWeight:FontWeight.w400),
-          ),
-          ),
-        )
-    );
-
-
-
-
-
+      ),
+      body: Center(
+        child: Text(
+          'flutter beginner',
+          style: TextStyle(fontSize: 50, fontWeight: FontWeight.w400),
+        ),
+      ),
+    ));
   }
-
 }
-*/
+
 
 /*
 
