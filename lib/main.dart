@@ -103,81 +103,52 @@ class MyApp extends StatelessWidget
 }
 */
 
+import 'package:flutter/material.dart';
 
-
-import'package:flutter/material.dart';
-
-void main()
-{
+void main() {
   runApp(MyApp());
 }
 
-class MyApp extends StatelessWidget
-{
+class MyApp extends StatelessWidget {
   const MyApp({super.key});
   @override
-
   Widget build(BuildContext context) {
-    return MaterialApp
-      (
-        home: Scaffold
-          (
+    return MaterialApp(
+        home: Scaffold(
             backgroundColor: Colors.blueAccent,
-            body: Center
-              (
-              child:CircleAvatar(
-                radius: 700,
-                backgroundColor: Colors.redAccent,
-                child: Container(
-                  height:400,
-                  width: 400,
-                  color: Colors.teal,
-
-
-                child: CircleAvatar
-                  (
-                    radius: 400,
-                    backgroundColor: Colors.purple,
-                    child: Container
-                      (
-                        height: 250,
-                        width: 250,
-                        color: Colors.indigoAccent,
-                        child: CircleAvatar
-                          (
+            body: Center(
+                child: CircleAvatar(
+                    radius: 700,
+                    backgroundColor: Colors.redAccent,
+                    child: Container(
+                        height: 400,
+                        width: 400,
+                        color: Colors.teal,
+                        child: CircleAvatar(
                             radius: 400,
-                            backgroundColor: Colors.green,
-                            child: Container
-                              (
-                                height: 200,
-                                width: 200,
-                                color: Colors.lightBlue,
-                                child: CircleAvatar
-                                  (
-                                    radius: 300,
-                                    backgroundColor: Colors.brown,
-                                    child: Container
-                                      (
-                                        height: 100,
-                                        width: 100,
-                                        color: Colors.grey,
-                                        child: Text
-                                          (
-                                            'Are u interested in this language'
-                                          )
-                                    )
-                                )
-
-                            )
-                          )
-                        )
-                          //child: Text('Are u interested to learn this language')
-                        )
-                )
-                )
-            )
-        )
-    );
+                            backgroundColor: Colors.purple,
+                            child: Container(
+                                height: 250,
+                                width: 250,
+                                color: Colors.indigoAccent,
+                                child: CircleAvatar(
+                                    radius: 400,
+                                    backgroundColor: Colors.green,
+                                    child: Container(
+                                        height: 200,
+                                        width: 200,
+                                        color: Colors.lightBlue,
+                                        child: CircleAvatar(
+                                            radius: 300,
+                                            backgroundColor: Colors.brown,
+                                            child: Container(
+                                                height: 100,
+                                                width: 100,
+                                                color: Colors.grey,
+                                                child: Text(
+                                                    'Are u interested in this language'))))))
+                            //child: Text('Are u interested to learn this language')
+                            ))))));
   }
 }
 
@@ -5598,6 +5569,8 @@ class MyApp extends StatelessWidget {
 }
 */
 
+
+/*
 import 'package:flutter/material.dart';
 
 void main() {
@@ -6362,3 +6335,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+*/
