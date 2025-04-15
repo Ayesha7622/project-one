@@ -103,6 +103,8 @@ class MyApp extends StatelessWidget
 }
 */
 
+/*
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -152,87 +154,55 @@ class MyApp extends StatelessWidget {
   }
 }
 
+*/
 
-/*
-import'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 
-  void main()
-  {
-    runApp(MyApp());
-  }
+void main() {
+  runApp(MyApp());
+}
 
-class MyApp extends StatelessWidget
-{
+class MyApp extends StatelessWidget {
   const MyApp({super.key});
   @override
-
-  Widget build(BuildContext context)
-  {
-    return MaterialApp
-      (
-      home: Scaffold
-
-        (
-        backgroundColor: Colors.lightGreen,
-        body: Center
-          (
-          child: CircleAvatar
-            (
-            radius:500,
-            backgroundColor: Colors.blueGrey,
-            child: CircleAvatar(
-              radius: 400,
-              backgroundColor: Colors.purple,
-                child: CircleAvatar
-                  (
-                    radius: 350,
-                    backgroundColor: Colors.greenAccent,
-                    child: Container(
-                        height: 300,
-                        width: 300,
-                        color: Colors.purple,
-                        child:CircleAvatar
-                          (
-                          radius:250,
-                          backgroundColor: Colors.teal,
-                          child:Container
-                            (
-                            height:200,
-                            width:200,
-                            color:Colors.green,
-              child: Text
-                (
-                'how are uuuu' ,style: TextStyle(color: Colors.tealAccent, fontSize: 40, fontWeight: FontWeight.w600),),
-            ),
-
-          )
-
-        )
-      )
-
-
-
-
-
-
-
-
-                )
-              )
-
-          ),
-
-       )
-
-
-
-    );
-
-
-
+  Widget build(BuildContext context) {
+    return MaterialApp(
+        home: Scaffold(
+      backgroundColor: Colors.lightGreen,
+      body: Center(
+          child: CircleAvatar(
+              radius: 500,
+              backgroundColor: Colors.blueGrey,
+              child: CircleAvatar(
+                  radius: 400,
+                  backgroundColor: Colors.purple,
+                  child: CircleAvatar(
+                      radius: 350,
+                      backgroundColor: Colors.greenAccent,
+                      child: Container(
+                          height: 300,
+                          width: 300,
+                          color: Colors.purple,
+                          child: CircleAvatar(
+                            radius: 250,
+                            backgroundColor: Colors.teal,
+                            child: Container(
+                              height: 200,
+                              width: 200,
+                              color: Colors.green,
+                              child: Text(
+                                'how are uuuu',
+                                style: TextStyle(
+                                    color: Colors.tealAccent,
+                                    fontSize: 40,
+                                    fontWeight: FontWeight.w600),
+                              ),
+                            ),
+                          )))))),
+    ));
   }
 }
-*/
+
 
 /*
 import 'package:flutter/material.dart';
