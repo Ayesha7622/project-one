@@ -154,7 +154,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-*/
+
 
 import 'package:flutter/material.dart';
 
@@ -202,74 +202,55 @@ class MyApp extends StatelessWidget {
     ));
   }
 }
+*/
 
-
-/*
 import 'package:flutter/material.dart';
 
-void main()
-{
+void main() {
   runApp(MyApp());
 }
 
-class MyApp extends StatelessWidget
-{
+class MyApp extends StatelessWidget {
   const MyApp({super.key});
   @override
-
-  Widget build(BuildContext context)
-  {
+  Widget build(BuildContext context) {
     return MaterialApp(
-    home: Scaffold(
-      backgroundColor: Colors.greenAccent,
-    body: Center(
-      child:Container(
-
-        height: 700,
-        width:600,
-
-        decoration:BoxDecoration(
-
-          color: Colors.teal,
-          borderRadius: BorderRadius.circular(60),
-
-          border: Border.all(width:20,color: Colors.indigo),
-
-        ),
-
-        child:CircleAvatar(
-          radius: 50,
-          backgroundColor: Colors.grey,
-          child:Container(
-            height:300,
-            width:250,
-            decoration:BoxDecoration(
-              color:Colors.purple,
-              borderRadius: BorderRadius.circular(38),
-              border:Border.all(width:20,color:Colors.orangeAccent),
-            ),
-
-
-
-        child:Center(
-
-        child: Text(
-          'gandyy bacchy',style: TextStyle(color: Colors.black87,fontSize: 40,fontWeight: FontWeight.bold),
-        ),
-
-
-
-      ),
-      )
-      )
-
-    )
-    )
-    )
-    );
+        home: Scaffold(
+            backgroundColor: Colors.greenAccent,
+            body: Center(
+                child: Container(
+                    height: 700,
+                    width: 600,
+                    decoration: BoxDecoration(
+                      color: Colors.teal,
+                      borderRadius: BorderRadius.circular(60),
+                      border: Border.all(width: 20, color: Colors.indigo),
+                    ),
+                    child: CircleAvatar(
+                        radius: 50,
+                        backgroundColor: Colors.grey,
+                        child: Container(
+                          height: 300,
+                          width: 250,
+                          decoration: BoxDecoration(
+                            color: Colors.purple,
+                            borderRadius: BorderRadius.circular(38),
+                            border: Border.all(
+                                width: 20, color: Colors.orangeAccent),
+                          ),
+                          child: Center(
+                            child: Text(
+                              'gandyy bacchy',
+                              style: TextStyle(
+                                  color: Colors.black87,
+                                  fontSize: 40,
+                                  fontWeight: FontWeight.bold),
+                            ),
+                          ),
+                        ))))));
   }
 }
-*/
+
 
 /*
 import'package:flutter/material.dart';
