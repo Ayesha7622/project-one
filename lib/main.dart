@@ -253,6 +253,8 @@ class MyApp extends StatelessWidget {
 }
 */
 
+/*
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -283,68 +285,51 @@ class MyApp extends StatelessWidget {
     ));
   }
 }
+*/
 
+import 'package:flutter/material.dart';
 
-/*
-
-import'package:flutter/material.dart';
-
-void main()
-{
+void main() {
   runApp(MyApp());
 }
 
-class MyApp extends StatelessWidget
-{
+class MyApp extends StatelessWidget {
   const MyApp({super.key});
   @override
-
-  Widget build(BuildContext context)
-  {
+  Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home:Scaffold(
-        backgroundColor:Colors.teal,
-        appBar:AppBar(
-          backgroundColor:Colors.tealAccent,
-          leading:Icon(
-            Icons.menu
-          ),
-
-          actions:[
-            //in this property,multiple widgets can be used
-            Icon(Icons.search),
-            SizedBox(width:10),
-            Icon(Icons.more_vert),
-            SizedBox(width:20),
-          ],
-      
-          title:Text('Today,we learnt about different properties and widgets',style:TextStyle(fontSize:20,fontWeight:FontWeight.bold),),
-          centerTitle:true,
-        ),
-        body:
-          Center(child: Container(
-              height: 150,
-              width: 150,
-              decoration: BoxDecoration(
-                  color: Colors.green,
-                  borderRadius: BorderRadius.circular(400)
+        debugShowCheckedModeBanner: false,
+        home: Scaffold(
+            backgroundColor: Colors.teal,
+            appBar: AppBar(
+              backgroundColor: Colors.tealAccent,
+              leading: Icon(Icons.menu),
+              actions: [
+                //in this property,multiple widgets can be used
+                Icon(Icons.search),
+                SizedBox(width: 10),
+                Icon(Icons.more_vert),
+                SizedBox(width: 20),
+              ],
+              title: Text(
+                'Today,we learnt about different properties and widgets',
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
-
-              child : Icon(Icons.account_circle)
-          ),)
-          
-
-
-         
-      )
-
-
-    );
+              centerTitle: true,
+            ),
+            body: Center(
+              child: Container(
+                  height: 150,
+                  width: 150,
+                  decoration: BoxDecoration(
+                      color: Colors.green,
+                      borderRadius: BorderRadius.circular(400)),
+                  child: Icon(Icons.account_circle)),
+            )));
   }
 }
 
-*/
+
 
 /*
 
